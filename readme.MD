@@ -1,6 +1,5 @@
-This repository contains the model described in the Cognitive Science paper "Concepts as Semantic Pointers: A Framework and Computational Model". Below are instructions to get the model running and to replicate the results presented in the paper.
+This repository contains the model described in the Cognitive Science paper "Concepts as Semantic Pointers: A Framework and Computational Model" (in press). Below are instructions to get the model running and to replicate the results presented in the paper.
 
-Blouw, Solodkin, Thagard and Eliasmith (2015). Cognitive Science.
 
 
 Installation
@@ -34,6 +33,6 @@ To run a particular experiment, modify run.py to execute the function associated
 
 Once a simulation is complete, the results will be written to file in the folder 'results/'. You can then regenerate the plots in the paper by running the script 'results.py' in this folder. To generate raster plots of the kind shown in the paper, run a particular experiment in the manner just described, but pass the parameter 'raster=True' to function that runs the experiment. This will write a rasterplot to file after each trial in the experiment. By default, rasterplots are not generated. 
 
-Further documentation is included in each of the scripts contained in this repository, but if you have any questions after reading through this material, please contact me at pblouw@uwaterloo.ca. Note that a small correction has been added to the pdf of supplementary material that describes the method for obtaining rule weights for the simulations involving the Lin & Murphy experiments. This correction is also documented in file weights.py
+Further documentation is included in each of the scripts contained in this repository, but if you have any questions after reading through this material, please contact me at pblouw@uwaterloo.ca. Note that a small correction has been added to the pdf of supplementary material that describes the method for obtaining rule weights for the simulations involving the Lin & Murphy experiments. This correction is also documented in the file weights.py
 
 
