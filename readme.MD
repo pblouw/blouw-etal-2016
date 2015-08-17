@@ -20,7 +20,6 @@ To make raster plots of the sort presented in the paper, you'll need to also ins
 ```
 cd nengo_plot
 python setup.py develop --user
-
 ```
 
 Again, the '--user' flag can be omitted if you are using virtualenv or something equivalent. 
