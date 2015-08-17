@@ -1,0 +1,16 @@
+*.py[co]
+.DS_Store
+_build
+build
+dist
+*.egg-info
+*~
+*.bak
+*.swp
+nengo.simulator.plots/
+log.txt
+.ipynb_checkpoints/
+.cache
+.tox
+
+*.class

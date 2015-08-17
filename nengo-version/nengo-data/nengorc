@@ -1,0 +1,43 @@
+# Nengo 2 example RC file
+
+# Nengo RC settings will be read from the following files in the given order:
+# 1. INSTALL/nengo-data/nengorc  (where INSTALL is the installation directory
+#     of the Nengo package)
+# 2. A operating system specific file in the user's home directory.
+#    Linux: ~/.config/nengo/nengorc
+#    OS X: ~/Library/Application Support/nengo/nengorc
+#    Windows 7: %userprofile%\AppData\Local\CNRGlab at UWaterloo\nengo
+# 3. File given in the environment variable $NENGORC.
+# 4. nengorc in the current directory.
+
+# This example file lists the settings supported by core Nengo with
+# a description, the accepted data type and an example line setting the option
+# to its default value (commented out).
+
+# The RC file is divided into sections by lines containing the section name
+# in brackets, i.e.
+# [section]
+#
+# A setting is set by giving the name followed by a : or = and the value.
+#
+# All lines starting with # or ; are comments.
+
+
+# Decoder cache settings
+[decoder_cache]
+
+# Enable or disable the cache. (boolean)
+# enabled: True
+
+# The cache can be set to read-only. In read-only mode cached decoders will be
+# loaded, but no newly calculated decoders will be written to the cache.
+# (boolean)
+# readonly: False
+
+# The maximum cache size in bytes. Whenever the cache exceeds this limit, cached
+# decoders will be deleted, beginning with the oldest, until the limit is met
+# again. (integer)
+# size: 536870912  # 512 MiB
+
+# Path where the cached decoders will be stored. (string)
+# path: ~/.cache/nengo/decoders  # Linux default
